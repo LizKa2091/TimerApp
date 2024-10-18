@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="main-window">
+        <div class="wrapper">
+            <div class="upper-section">
+                <div class="load-save">
+                    <button class="load-data action-data">Загрузить данные</button>
+                    <button class="save-data action-data">Сохранить данные</button>
+                    <button class="clear-data action-data">Удалить данные</button>
+                </div>
+                <div class="theme">
+                    <button class="theme-light theme-type"></button>
+                    <button class="theme-dark theme-type"></button>
+                </div>
+            </div>
+            <div class="main bordered">
+                <div class="actions">
+                    <button class="start action-button">Start</button>
+                    <button class="stop action-button">Stop</button>
+                    <button class="restart action-button">Restart</button>
+                    <button class="clear action-button">Clear</button>
+                </div>
+                <div class="time">
+                    <span id="live-time">
+                        <span class="days time-span"></span><span class="hours time-span">00</span>:<span class="minutes time-span">00</span>:<span class="seconds time-span">00</span>
+                    </span>
+                </div>
+                <div class="description">
+                    <p class="description__p">Нажмите, чтобы добавить описание</p>
+                    <input id="description__input" type="text" maxlength="38">
+                </div>
+            </div>
+        </div>
+        <div class="loading-data">
+            
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+</html>
