@@ -1,4 +1,3 @@
-//ДОДЕЛАТЬ ДОБАВИТЬ ВОЗМОЖНОСТЬ ВВЕДЕНИЯ ВРЕМЕНИ ВРУЧНУЮ
 const body = document.querySelector('body');
 const mainWindow = document.querySelector('.main-window');
 
